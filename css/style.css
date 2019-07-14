@@ -77,7 +77,6 @@ section{
     text-align: center;
     margin-top: 10px;
 }
-
 #under{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -181,6 +180,11 @@ aside{
 }
 .clap{
     color: #b174e9;
+}
+#picmar{
+    margin-left: 5%;
+    color: #0000008a;
+    font-weight: normal;
 }
 /*Le Y dans un cercle noir*/
 #yblac{
