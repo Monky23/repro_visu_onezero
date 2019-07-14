@@ -14,29 +14,42 @@ h1{
     margin-right: 25%;
     margin-bottom: 20px;
 }
+h2, h3{
+    font-weight: bold;
+}
 #first-h2{
     font-size: 24px;
     color: #0000008a;
     font-weight: normal;
     margin-bottom: 20px;
 }
-h2, h3, h4, figcaption, a, aside{
+h2, h3, h4, figcaption, a, aside, blockquote{
     font-family: 'Open Sans', sans-serif;
 }
 h3, h4{
     font-size: 16px;
-    font-weight: normal;
 }
 h4{
     color: #0000008a;
+    font-weight: normal;
 }
 p{
     font-size: 23px;
     margin: 16px 0;
     line-height: 1.58;
+    font-weight: 400;
+}
+blockquote{
+    color: #757575;
+    margin: 10% 0% 10% 10%;
+    font-size: 33px;
 }
 section{
     margin: 16px 0;
+}
+/*les parties soulignées*/
+.underlin{
+    text-decoration-line: underline;
 }
 /*redimentionnement et positionnement de l'image du logo M*/
 #m-logo{
@@ -132,6 +145,7 @@ width: 100%;
 }
 figcaption{
     text-align: center;
+    color: #0000008a
 }
 /*Aside*/
 aside span{
@@ -221,7 +235,8 @@ aside{
 }
 .bidouille{
     margin-left: 60px;
-    margin-right: 85px;
+    margin-right: 90px;
+    font-size: 16px;
 }
 /*footer*/
 footer{
@@ -235,14 +250,19 @@ footer{
      width: 32%;
      height: 200px;
      padding-bottom: 40px;
-     padding-left: 10px;
+     /*margin-left: 10px;*/
      box-shadow: 0px 3px 3px 3px #e5e5e5;
  }
  .foot h2{
     height: 200px;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
  }
  .fim{
     width: 100%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+ }
+ .foot h4, .foot h2{
+     padding-left: 10px;
  }
